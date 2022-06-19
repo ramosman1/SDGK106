@@ -1,0 +1,44 @@
+.main-content{
+    display: flex;
+
+}
+
+h3{
+    color: black;
+    text-align: center;
+}
+
+.list{
+    flex: 3;
+    border-right: solid 1px;
+    margin-right: 5px;
+}
+
+.form {
+    flex: 2;
+}
+
+#iImportant{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+/* no space neede for this between id and icon */
+#iImportant.fa-star{
+    color: rgb(151, 117, 16);
+}
+
+#btnShowHide{
+    border: none;
+    background-color: rgb(93, 176, 217);
+}
+
+#addTaskBtn{
+    border: none;
+    background-color: rgb(93, 176, 217);
+
+}
+
+/* .task .left-col{
+ display: flex;
+} */
