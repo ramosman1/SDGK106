@@ -29,13 +29,13 @@ function testObj() {
   // OBJ LITERAL describes obj// and config
   let dog1 = {
     name: "grey",
-    age: 3,
+    age: 4,
     color: "black",
   };
 
   let dog2 = {
-    name: "spike",
-    age: 3,
+    name: "brutus",
+    age: 4,
   };
 
   console.log(dog1, dog2);
@@ -48,8 +48,8 @@ function testObj() {
   dog3.bark(); ///// call bark inside obj dog 3
 
   // obj classes
-  let cat1 = new Cat("marbles", 2, "white");
-  let cat2 = new Cat("sad", 4, "brown");
+  let cat1 = new Cat("kitty", 2, "white");
+  let cat2 = new Cat("marbles", 4, "brown");
   console.log(cat1, cat2);
   console.log(cat1.name);
   cat1.meow(); ////  call meow func thats in cat1
